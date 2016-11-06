@@ -77,7 +77,7 @@ There is only one method that you can use - generate.
 		<td>integer</td>
 		<td>30</td>
 		<td>---</td>
-		<td>Height of the barcode in pixels</td>
+		<td>Height of the barcode in pixels.</td>
 	</tr>
 </table>
 
