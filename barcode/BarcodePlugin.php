@@ -31,12 +31,12 @@ class BarcodePlugin extends BasePlugin
 
     public function getDocumentationUrl()
     {
-        return 'https://github.com/madebyshape/barcode/blob/master/README.md';
+        return 'https://github.com/bymayo/barcode/blob/master/README.md';
     }
 
     public function getReleaseFeedUrl()
     {
-        return 'https://raw.githubusercontent.com/madebyshape/barcode/master/releases.json';
+        return 'https://raw.githubusercontent.com/bymayo/barcode/master/releases.json';
     }
 
     public function getVersion()
