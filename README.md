@@ -1,4 +1,4 @@
-<img src="https://github.com/madebyshape/barcode/raw/master/screenshots/icon.png" width="50">
+<img src="https://github.com/bymayo/barcode/raw/master/screenshots/icon.png" width="50">
 
 # Barcode
 
