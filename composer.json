@@ -1,0 +1,44 @@
+{
+    "name": "bymayo/barcode",
+    "description": "Barcode is a Craft CMS plugin that allows you to generate a barcode image (Or HTML) in your templates using Twig.",
+    "type": "craft-plugin",
+    "version": "1.0.0",
+    "keywords": [
+        "craft",
+        "cms",
+        "craftcms",
+        "craft-plugin",
+        "barcode"
+    ],
+    "support": {
+        "docs": "https://github.com/##/barcode/blob/master/README.md",
+        "issues": "https://github.com/##/barcode/issues"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "ByMayo",
+            "homepage": "https://bymayo.co.uk"
+        }
+    ],
+    "require": {
+        "craftcms/cms": "^3.0.0-RC1",
+        "picqer/php-barcode-generator": "^0.2.1"
+    },
+    "autoload": {
+        "psr-4": {
+          "bymayo\\barcode\\": "src/"
+        }
+    },
+    "extra": {
+        "name": "Barcode",
+        "handle": "barcode",
+        "hasCpSettings": false,
+        "hasCpSection": false,
+        "changelogUrl": "https://raw.githubusercontent.com/##/barcode/master/CHANGELOG.md",
+        "components": {
+            "barcode": "bymayo\\barcode\\services\\Barcode"
+        },
+        "class": "bymayo\\barcode\\Barcode"
+    }
+}
