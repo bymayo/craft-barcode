@@ -1,11 +1,12 @@
 <?php
 /**
- * Barcode plugin for Craft CMS 3.x
+ * BarcodeService for Barcode plugin for Craft CMS 3.x
  *
  * Barcode is a Craft CMS plugin that allows you to generate a barcode image (Or HTML) in your templates using Twig.
  *
  * @link      https://bymayo.co.uk
  * @copyright Copyright (c) 2018 ByMayo
+ * @since 1.0.0
  */
 
 namespace bymayo\barcode\services;
@@ -15,24 +16,12 @@ use bymayo\barcode\Barcode;
 use Craft;
 use craft\base\Component;
 
-/**
- * Barcode Service
- *
- * All of your plugin’s business logic should go in services, including saving data,
- * retrieving data, etc. They provide APIs that your controllers, template variables,
- * and other plugins can interact with.
- *
- * https://craftcms.com/docs/plugins/services
- *
- * @author    ByMayo
- * @package   Barcode
- * @since     1.0.0
- */
+
 class BarcodeService extends Component
 {
 
     /**
-     * Renders the actual barcode stuff based on the selected barcode $options variable.
+     * Returns the color in RGB format. 
      * @param $type
      * @param $hex
      * @return mixed
@@ -53,7 +42,7 @@ class BarcodeService extends Component
 
 
     /**
-     * Renders the actual barcode stuff based on the selected barcode $options variable.
+     * Filter in the given options and generate an actual barcode to be used in the gener
      * @param \Picqer\Barcode\ instance $generator
      * @param array $options
      * @return mixed
@@ -108,7 +97,7 @@ class BarcodeService extends Component
 
 
     /**
-     * Generates a barcode based on the array options.
+     * Filter what type of barcode is wished, create an outline and call the getBarcode method to render the actual barcode. 
      * @param array $options
      */
     public function generate(array $options)
