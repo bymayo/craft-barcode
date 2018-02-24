@@ -6,4 +6,4 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/) and this p
 
 ## 1.0.0 - 2018-02-23
 ### Added
-- Initial release
+- Initial release of Craft CMS 3 compatible version
