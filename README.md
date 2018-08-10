@@ -1,6 +1,8 @@
+> ⚠️ This repo is not under active development and will not be moved to Craft 3.x. ⚠️
+
 <img src="https://github.com/bymayo/barcode/raw/master/screenshots/icon.png" width="50">
 
-# Barcode
+# Barcode for Craft 2.x
 
 Barcode is a Craft CMS plugin that allows you to generate a barcode image (Or HTML) in your templates using Twig. 
 
